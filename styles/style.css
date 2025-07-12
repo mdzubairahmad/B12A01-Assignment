@@ -7,6 +7,15 @@
     "slnt" 0,
     "wdth" 100;
 }
+
+.my-font-2 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 body{
     background-color: #f5f8ff;
     margin:  auto;
@@ -242,6 +251,7 @@ nav{
 }
 .form input{
     margin: 5px;
+    padding-left: 20px;
 }
 .form-head h1{
     font-size: 50px;
@@ -267,6 +277,39 @@ nav{
 a{
     text-decoration: none;
 }
+span{
+    font-size: 12px;
+}
 textarea{
     resize: none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/*-------foooter section*/
+.main-footer{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+.main-ft h1{
+    margin: 0px;
+    padding: 20px;
+}
+.main-ft p{
+    margin: 10px auto;
+    font-size: 10px;
+    color: gray;
+    width: 300px;
+}
+.link a{
+    color: rgb(151, 146, 146);
+    font-size: 12px;
+    margin-left: 20px;
 }
